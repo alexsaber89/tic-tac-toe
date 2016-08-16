@@ -1,0 +1,46 @@
+/***********
+   Boxes
+***********/
+
+#wrapper {
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#col_a,
+#col_b,
+#col_c {
+  display: inline;
+}
+
+#col_a {
+  margin-left: auto;
+}
+
+#col_c {
+  margin-right: auto;
+}
+
+.box {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+/***********
+ X's and O's
+***********/
+
+.red_x {
+  text-align: center;
+  font-weight: 900;
+  color: red;
+}
+
+.blue_o {
+  text-align: center;
+  font-weight: 900;
+  color: red;
+}
