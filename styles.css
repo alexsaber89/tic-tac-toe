@@ -3,29 +3,15 @@
 ***********/
 
 #wrapper {
-  display: flex;
-  width: 40%;
-  margin: 0 auto;
-}
-
-#col_a,
-#col_b,
-#col_c {
-  display: inline;
-}
-
-#col_a {
-  margin-left: auto;
-}
-
-#col_c {
-  margin-right: auto;
+  display: inline-block;
+  min-width: 40%;
+  max-width: 40%;
 }
 
 .box {
-  display: block;
-  width: 50px;
-  height: 50px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
   border: 1px solid black;
 }
 
